@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hansvahini Convent School</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+   <script src="script.js"></script>
+ 
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Header/Navigation -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="image/icon.webp" alt="School logo featuring an open book with a graduation cap positioned above it" class="mr-3 h-12">
+        <h1 class="text-2xl font-bold gradient-text">Hansvahini Convent School</h1>
+      </div>
+      
+      <nav class="hidden md:flex space-x-8">
+        <a href="#home" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+        <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
+        <a href="#academics" class="text-gray-700 hover:text-blue-600 font-medium">Academics</a>
+        <a href="#facilities" class="text-gray-700 hover:text-blue-600 font-medium">Facilities</a>
+        <a href="#gallery" class="text-gray-700 hover:text-blue-600 font-medium">Gallery</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+      </nav>
+      
+      <button class="md:hidden text-gray-700" id="menu-toggle">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </div>
+    
+    <div class="mobile-menu bg-white" id="mobile-menu">
+      <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+        <a href="#home" class="text-gray-700 hover:text-blue-600 font-medium py-2">Home</a>
+        <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium py-2">About</a>
+        <a href="#academics" class="text-gray-700 hover:text-blue-600 font-medium py-2">Academics</a>
+        <a href="#facilities" class="text-gray-700 hover:text-blue-600 font-medium py-2">Facilities</a>
+        <a href="#gallery" class="text-gray-700 hover:text-blue-600 font-medium py-2">Gallery</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium py-2">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative bg-gradient-to-r from-blue-700 to-blue-500 text-white py-20">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-10 md:mb-0 animate-fadein delay-1">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Education Beyond Classrooms,<br> Values Beyond Books</h1>
+        <p class="text-xl mb-8">Where excellence in education meets nurturing environment for holistic development.</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#contact" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-3 px-6 rounded-lg text-center transition">Enquire Now</a>
+          <a href="#about" class="bg-transparent hover:bg-white/10 border-2 border-white text-white font-bold py-3 px-6 rounded-lg text-center transition">Learn More</a>
+        </div>
+      </div>
+      <div class="md:w-1/2 animate-fadein delay-2">
+        <img src="image/27.jpg" alt="Happy diverse group of students walking together on school campus with books in their hands" class="rounded-lg shadow-2xl hover-scale">
+      </div>
+    </div>
+    
+    <div class="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-white to-transparent"></div>
+  </section>
+
+  <!-- About School Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16 animate-fadein">
+        <h2 class="text-3xl font-bold mb-4 gradient-text">About Our School</h2>
+        <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">Hansvahini Convent School, Alampur, Dist-Rohtas, PS-Sheosagar, Sasaram is an English Medium Co-Educational School of high standard has come into existence in January 2010. It is run and managed by HANSVAHINI Education and Social Welfare Foundation holds ISO 9001:2015 certification. This school has been established with the aim of service to the nation by providing for the best education in home like environment.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-8 rounded-xl shadow-md hover-scale animate-fadein delay-1">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+            <i class="fas fa-graduation-cap text-blue-600 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-center">Our Mission</h3>
+          <p class="text-gray-600 text-center">To provide quality education in a safe, nurturing, and stimulating environment that inspires curiosity, creativity, and confidence. We aim to develop responsible, compassionate, and independent individuals equipped with the skills and values to thrive in a global society.</p>
+        </div>
+        
+        <div class="bg-gray-50 p-8 rounded-xl shadow-md hover-scale animate-fadein delay-2">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+            <i class="fas fa-eye text-blue-600 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-center">Our Vision</h3>
+          <p class="text-gray-600 text-center">To shape young minds into confident, independent individuals through real-life education in a nurturing, value-driven environment. We envision a future where every child realizes their true potential and contributes meaningfully to society.</p>
+        </div>
+        
+        <div class="bg-gray-50 p-8 rounded-xl shadow-md hover-scale animate-fadein delay-3">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+            <i class="fas fa-star text-blue-600 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-center">Our Values</h3>
+          <p class="text-gray-600 text-center">At Hansvahini Convent School, we stand for: Integrity, Perseverance, Civic Responsibility, Cultural Respect & Holistic Growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academics Section -->
+  <section id="academics" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16 animate-fadein">
+        <h2 class="text-3xl font-bold mb-4 gradient-text">Our Academic Programs</h2>
+        <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">
+If our school is a pen, the parents are the ink, joining together we can write the success story of educational development of our children.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md hover-scale animate-fadein delay-1">
+          <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-child text-blue-600 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold mb-2">Pre-Primary School</h3>
+          <p class="text-gray-600 text-sm">The approach at Pre Primary is 'Child Centric'. "Play While Learn and Learn While Play" is the main objective at this level. Emphasis is given on imparting knowledge of the world around the child, developing linguistic & creative skills, fine & gross motor skills.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md hover-scale animate-fadein delay-2">
+          <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-users text-blue-600 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold mb-2 ">Primary School</h3>
+          <p class="text-gray-600 text-sm">The approach at this level is 'Learning by Doing'. A thematic approach is followed to stimulate children through interactive sessions, projects, surveys and other innovative activities. Emphasis on participation of each student in the curricular & co-curricular activities is given along with the strong sense of individuality.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md hover-scale animate-fadein delay-3">
+          <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-book-open text-blue-600 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold mb-2 ">Junior School</h3>
+          <p class="text-gray-600 text-sm">It follows an enriched curriculum with in-depth knowledge of the subjects. Besides following the NCERT guidelines, the school keeps an open mind to the changing educational patterns. It stresses upon developing right study habits, value education, overall personality development and coping with peer pressure at this stage.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md hover-scale animate-fadein delay-4">
+          <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-code text-blue-600 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold mb-2">STEM Program</h3>
+          <p class="text-gray-600 text-sm">Advanced courses in Science, Technology, Engineering and Mathematics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities Section -->
+  <section id="facilities" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16 animate-fadein">
+        <h2 class="text-3xl font-bold mb-4 gradient-text">Our Facilities</h2>
+        <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">State-of-the-art facilities designed to support academic excellence and personal growth.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="rounded-xl overflow-hidden shadow-lg hover-scale animate-fadein delay-1">
+          <img src="image/22.jpg" alt="Modern science laboratory with students conducting experiments using microscopes and lab equipment" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Science Labs</h3>
+            <p class="text-gray-600">Well-equipped science labs that provide hands-on learning experiences, fostering curiosity and practical understanding of scientific concepts.</p>
+          </div>
+        </div>
+        
+        <div class="rounded-xl overflow-hidden shadow-lg hover-scale animate-fadein delay-2">
+          <img src="image/25.webp" alt="Spacious school library with rows of bookshelves and students reading at study tables" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Vehicle Facility</h3>
+            <p class="text-gray-600">We provide safe and reliable transportation with well-maintained vehicles and experienced drivers, ensuring a secure and comfortable commute for students.</p>
+          </div>
+        </div>
+        
+        <div class="rounded-xl overflow-hidden shadow-lg hover-scale animate-fadein delay-3">
+          <img src="image/20.jpg" alt="Large sports field with students playing soccer and track surrounding the field" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Large Playground</h3>
+            <p class="text-gray-600">A spacious and well-maintained playground that promotes physical fitness, teamwork, and outdoor activities for holistic student development.</p>
+          </div>
+        </div>
+        
+        <div class="rounded-xl overflow-hidden shadow-lg hover-scale animate-fadein delay-2">
+          <img src="image/28.jpg" alt="Modern performing arts theater with stage and audience seating" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Private Building</h3>
+            <p class="text-gray-600">Our school operates in a secure, spacious, and dedicated campus, providing a safe and focused learning environment for students.</p>
+          </div>
+        </div>
+        
+        <div class="rounded-xl overflow-hidden shadow-lg hover-scale animate-fadein delay-3">
+          <img src="image/23.jpg" alt="Bright computer lab with rows of modern computers and students working" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Computer Labs</h3>
+            <p class="text-gray-600">Modern computing facilities with high-speed internet to enhance digital literacy and technical skills.</p>
+          </div>
+        </div>
+        
+        <div class="rounded-xl overflow-hidden shadow-lg hover-scale animate-fadein delay-4">
+          <img src="image/24.jpg" alt="Cafeteria with modern seating, serving stations and students eating at tables" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Digital Messaging</h3>
+            <p class="text-gray-600">Stay connected with instant updates through our digital messaging system, ensuring timely communication between school and parents.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16 animate-fadein">
+        <h2 class="text-3xl font-bold mb-4 gradient-text">Experience Our Campus</h2>
+        <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">Take a visual tour of our vibrant campus life, events and student achievements.</p>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="rounded-lg overflow-hidden hover-scale animate-fadein delay-1">
+          <img src="image/4.jpg" alt="Annual science fair with students presenting projects to judges" class="w-full h-48 object-cover">
+        </div>
+        <div class="rounded-lg overflow-hidden hover-scale animate-fadein delay-2">
+          <img src="image/9.jpg" alt="Cultural festival with students performing traditional dance" class="w-full h-48 object-cover">
+        </div>
+        <div class="rounded-lg overflow-hidden hover-scale animate-fadein delay-3">
+          <img src="image/19.jpg" alt="Sports day with students participating in relay race" class="w-full h-48 object-cover">
+        </div>
+        <div class="rounded-lg overflow-hidden hover-scale animate-fadein delay-4">
+          <img src="image/2.jpg" alt="Graduation ceremony with students throwing caps" class="w-full h-48 object-cover">
+        </div>
+        <div class="rounded-lg overflow-hidden hover-scale animate-fadein delay-2">
+          <img src="image/21.jpg" alt="Classroom learning session with teacher and engaged students" class="w-full h-48 object-cover">
+        </div>
+        <div class="rounded-lg overflow-hidden hover-scale animate-fadein delay-3">
+          <img src="image/15.jpg" alt="Robotics competition team celebrating with their robot" class="w-full h-48 object-cover">
+        </div>
+        <div class="rounded-lg overflow-hidden hover-scale animate-fadein delay-4">
+          <img src="image/14.jpg" alt="School choir performing at winter concert" class="w-full h-48 object-cover">
+        </div>
+        <div class="rounded-lg overflow-hidden hover-scale animate-fadein delay-1">
+          <img src="image/11.jpg" alt="Student art exhibition showcasing various media" class="w-full h-48 object-cover">
+        </div>
+      </div>
+      
+      <div class="text-center mt-10 animate-fadein">
+        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition">View More Photos</button>
+      </div>
+    </div>
+  </section>
+
+<!-- Director's Message -->
+<section class="py-20 bg-blue-700 text-white">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16 animate-fadein">
+      <h2 class="text-3xl font-bold mb-4">Director's Message</h2>
+      <div class="w-20 h-1 bg-yellow-400 mx-auto mb-6"></div>
+    </div>
+    
+    <div class="bg-white/10 p-12 rounded-xl hover-scale animate-fadein delay-1">
+      <div class="flex items-center mb-4 justify-center">
+        <img src="image/31.jpg" alt="Director" class="w-48 h-48 rounded-full mr-4">
+        <div>
+          <h4 class="font-bold text-2xl">Mr. Nitesh Singh</h4>
+          <p class="text-sm text-white/80">Director</p>
+        </div>
+      </div>
+      <p class="italic font-bold ">"If our school is a pen, the parents are the ink; joining together we can write the success story of educational development of our children."</p>
+      <p class="text-center">Our teachers are well qualified & share a passion for teaching, thereby bringing out the best in both themselves and their students. We edify our students in classical as well as contemporary models of learning while giving them a solid foundation in cultural insights of the world.</p>
+      <p class="text-center">We pride ourselves on creating a culture of learning where students are free to express or share their interest in variety of fields while developing their character as well. Delayed gratification, integrity, civic consciousness and the willingness not to give up, these are the values that we seek to inculcate in our students. With extra-curricular classes, a strong emphasis on communication skills and activities mean to foster cultural understanding, the students of our school emerges as elucidated and responsible citizen of the world.</p>
+      <p class="text-center">Hansvahini Convent School is more than an ordinary school. We encourage students to embark on difficult, challenging journeys that stretch their potential. But we do so with an unyielding faith in capacities of our teachers and students. The management and staff of Success Kids Academy is deeply committed to work tirelessly in order to make our students’ learning experience an exciting and elucidating one.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16 animate-fadein">
+        <h2 class="text-3xl font-bold mb-4 gradient-text">Contact Us</h2>
+        <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">Reach out for admissions information, school tours, or general inquiries.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12">
+        <div class="animate-fadein delay-1">
+          <h3 class="text-xl font-bold mb-6">Get In Touch</h3>
+          
+          <div class="space-y-4">
+            <div class="flex">
+              <div class="flex-shrink-0">
+                <i class="fas fa-map-marker-alt text-blue-600 mt-1 mr-4"></i>
+              </div>
+              <div>
+                <h4 class="font-medium text-gray-800">Address</h4>
+                <p class="text-gray-600">Alampur, Dist-Rohtas, PS-Sheosagar, Sasaram</p>
+              </div>
+            </div>
+            
+            <div class="flex">
+              <div class="flex-shrink-0">
+                <i class="fas fa-phone-alt text-blue-600 mt-1 mr-4"></i>
+              </div>
+              <div>
+                <h4 class="font-medium text-gray-800">Phone</h4>
+                <p class="text-gray-600">7004711806, 8862873929</p>
+              </div>
+            </div>
+            
+            <div class="flex">
+              <div class="flex-shrink-0">
+                <i class="fas fa-envelope text-blue-600 mt-1 mr-4"></i>
+              </div>
+              <div>
+                <h4 class="font-medium text-gray-800">Email</h4>
+                <p class="text-gray-600">foundationhansvahini@gmail.com </p>
+              </div>
+            </div>
+            
+            <div class="flex">
+              <div class="flex-shrink-0">
+                <i class="fas fa-clock text-blue-600 mt-1 mr-4"></i>
+              </div>
+              <div>
+                <h4 class="font-medium text-gray-800">Office Hours</h4>
+                <p class="text-gray-600">Mon-Fri: 08:30 AM to 01:30 PM</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8">
+            <h4 class="font-bold mb-4">Follow Us</h4>
+            <div class="flex space-x-4">
+              <a href="https://www.facebook.com/HansvahiniConventSchool" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/foundationhansvahini_official/#" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.youtube.com/@hansvahinifoundation1474" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-gray-50 p-8 rounded-xl shadow-md animate-fadein delay-2">
+          <h3 class="text-xl font-bold mb-6">Send Us a Message</h3>
+          <form>
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+              <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+              <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            
+            <div class="mb-4">
+              <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+              <select id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <option value="admissions">Admissions Inquiry</option>
+                <option value="tour">Schedule a Tour</option>
+                <option value="general">General Question</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+            
+            <div class="mb-6">
+              <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+              <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            </div>
+            
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition">Send Message</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="mt-16 animate-fadein">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.97788287906!2d-73.9889647!3d40.7484405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjQiTiA3M8KwNTknMTYuMyJX!5e0!3m2!1sen!2sus!4v1620942304701!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-xl shadow-lg"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <div class="flex items-center mb-4">
+            <img src="image/icon.webp" alt="School logo featuring an open book with a graduation cap positioned above it" class="mr-3 h-10">
+            <h3 class="text-xl font-bold text-white">Hansvahini Convent School</h3>
+          </div>
+          <p class="mb-4">Committed to excellence in education since 1995.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="text-lg font-bold text-white mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#home" class="hover:text-white transition">Home</a></li>
+            <li><a href="#about" class="hover:text-white transition">About Us</a></li>
+            <li><a href="#academics" class="hover:text-white transition">Academics</a></li>
+            <li><a href="#facilities" class="hover:text-white transition">Facilities</a></li>
+            <li><a href="#gallery" class="hover:text-white transition">Gallery</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="text-lg font-bold text-white mb-4">Admissions</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-white transition">Application Process</a></li>
+            <li><a href="#" class="hover:text-white transition">Tuition & Fees</a></li>
+            <li><a href="#" class="hover:text-white transition">Scholarships</a></li>
+            <li><a href="#" class="hover:text-white transition">School Calendar</a></li>
+            <li><a href="#" class="hover:text-white transition">Parent Resources</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="text-lg font-bold text-white mb-4">Newsletter</h4>
+          <p class="mb-4">Subscribe to receive school news and updates.</p>
+          <form class="flex">
+            <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg focus:outline-none w-full text-gray-800">
+            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-r-lg transition">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="pt-8 border-t border-gray-800 text-center">
+        <p>&copy; 2025 Hansvahini Convent School. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
